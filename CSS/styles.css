@@ -1,0 +1,217 @@
+
+
+#Julio {
+  font-family: 'Parisienne', cursive;
+  color: #66BFBF;
+  font-size: 5rem;
+  margin-bottom: 2px;
+  text-shadow: 3px 2px darkgrey;
+
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #11999E;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+}
+
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  color: #79797C;
+}
+
+hr {
+  width: 10%;
+  border-top: 5px dotted grey;
+  margin: 40px auto;
+}
+
+body {
+  color:#8774F9;
+  margin: 0;
+  text-align: center;
+}
+
+  table {
+    width: 100%;
+  }
+
+  table td {
+    border: 2px solid blue;
+  }
+
+li {
+  color: #79797C;
+}
+
+.top_container {
+  background-color: #d1e9e9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+.profile {
+  background-image: url(https://media.giphy.com/media/h6lkNEeOQVTlqDkfWY/giphy.gif);
+  background-size: contain;
+}
+
+.job {
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+.skills {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  padding-top: 30px;
+  width: 50%;
+  margin: auto;
+}
+
+.illustrator {
+  background-image: url(https://media.giphy.com/media/xT6NBzAZ0MGwxmmYlt/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 100px;
+  text-align: left;
+  text-indent: 10%;
+  background-color: lightblue;
+  font-size: 1.5rem;
+}
+
+.photoshop {
+  background-image: url(https://media.giphy.com/media/ZLLZcHDe4RpWEl9INg/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  background-position: right;
+  text-align: left;
+  text-indent: 10%;
+  background-color: lightblue;
+  font-size: 1.5rem;
+}
+
+
+.html {
+  background-image: url(https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  background-position: center;
+  background-color: lightblue;
+}
+
+.css {
+  background-image: url(https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  background-position: center;
+  background-color: lightblue;
+}
+
+.js {
+  background-image: url(https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  background-position: center;
+  background-color: lightblue;
+}
+
+
+.jobweb {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.web {
+  color: green;
+  font-size: 1.5rem;
+  text-shadow: 2px 1px darkgrey;
+}
+
+.designer {
+  color: purple;
+  font-size: 1.5rem;
+  text-shadow: 2px 1px darkgrey;
+}
+
+.singing {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+
+.basketball {
+  width: 50%;
+  margin: 200px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.microphone {
+  width: 30%;
+  float: left;
+}
+
+.michael {
+  width: 30%;
+  float: right;
+}
+
+.bottom-container {
+  position: relative;
+  margin: 0;
+}
+
+.FrontEnd {
+  width: 100%;
+}
+
+.footer-linkedin {
+  display: inline-block;
+}
+
+.footer-twitter {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.footer-link {
+  display: inline-block;
+}
+
+.copyright {
+  color: #DEF3F0;
+}
