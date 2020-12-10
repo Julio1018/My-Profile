@@ -25,7 +25,7 @@ h3 {
 
 p {
   font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 200;
   color: #79797C;
 }
@@ -37,13 +37,14 @@ hr {
 }
 
 body {
-  color:#8774F9;
   margin: 0;
   text-align: center;
+  background-color: #e8e9e8;
 }
 
   table {
     width: 100%;
+    border-collapse: collapse;
   }
 
   table td {
@@ -77,6 +78,7 @@ li {
 .profile {
   background-image: url(https://media.giphy.com/media/h6lkNEeOQVTlqDkfWY/giphy.gif);
   background-size: contain;
+  padding-top: 100px;
 }
 
 .job {
@@ -84,16 +86,29 @@ li {
   font-size: 1.25rem;
 }
 
+
 .skills {
-  width: 50%;
-  margin: auto;
+  margin: 100px auto 50px auto;
+  width: 60%;
+  height: 20%;
 }
 
 .skill-row {
-  padding-top: 30px;
+  margin: 100px auto 50px auto;
   width: 50%;
-  margin: auto;
+  height: 20%;
 }
+
+
+.illustrator .photoshop .html .css .js .web .designer {
+  font-size: 2rem;
+}
+
+.illustrator:hover, .photoshop:hover, .html:hover, .css:hover, .js:hover{
+  background-color: lightblue;
+  font-size: 2.25rem;
+}
+
 
 .illustrator {
   background-image: url(https://media.giphy.com/media/xT6NBzAZ0MGwxmmYlt/giphy.gif);
@@ -103,8 +118,6 @@ li {
   height: 100px;
   text-align: left;
   text-indent: 10%;
-  background-color: lightblue;
-  font-size: 1.5rem;
 }
 
 .photoshop {
@@ -115,53 +128,18 @@ li {
   background-position: right;
   text-align: left;
   text-indent: 10%;
-  background-color: lightblue;
-  font-size: 1.5rem;
+
 }
 
 
-.html {
-  background-image: url(https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100px;
-  background-position: center;
-  background-color: lightblue;
-}
-
-.css {
-  background-image: url(https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100px;
-  background-position: center;
-  background-color: lightblue;
-}
-
-.js {
-  background-image: url(https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100px;
-  background-position: center;
-  background-color: lightblue;
-}
-
-
-.jobweb {
-  text-align: center;
-  font-size: 1.5rem;
-}
 
 .web {
   color: green;
-  font-size: 1.5rem;
   text-shadow: 2px 1px darkgrey;
 }
 
 .designer {
   color: purple;
-  font-size: 1.5rem;
   text-shadow: 2px 1px darkgrey;
 }
 
@@ -196,7 +174,7 @@ li {
 }
 
 .FrontEnd {
-  width: 100%;
+  height: 0;
 }
 
 .footer-linkedin {
